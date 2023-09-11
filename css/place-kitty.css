@@ -23,7 +23,7 @@
 }
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
-.ball+img {
+#ball + img{
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -35,4 +35,5 @@ img[alt="Kitty5"] {
   position: absolute;
   z-index: 3;
   top: 217px;
+  left: 223px;
 }
